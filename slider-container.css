@@ -1,0 +1,25 @@
+.slider-container {
+    position: relative;
+    background-color: #e0e0e0;
+    border: 1px solid #000;
+    width: 100%;  /* Customize as needed */
+    height: 20px; /* Customize as needed */
+}
+
+.colored-region {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #4caf50;
+    width: 0;
+}
+
+.slider-marker {
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background-color: #f44336;
+    cursor: pointer;
+}
